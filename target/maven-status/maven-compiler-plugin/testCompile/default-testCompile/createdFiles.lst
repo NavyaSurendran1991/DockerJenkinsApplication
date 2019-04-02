@@ -1,0 +1,4 @@
+com\spring\controller\ApplicationInfoControllerTests.class
+com\spring\service\ApplicationInfoServiceTests.class
+com\spring\utils\TestUtil.class
+com\spring\DockerJenkinsApplicationTests.class

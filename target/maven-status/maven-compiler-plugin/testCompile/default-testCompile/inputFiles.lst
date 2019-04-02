@@ -1,1 +1,4 @@
 D:\JavaWorkSpace\DockerJenkinsApplication\src\test\java\com\spring\DockerJenkinsApplicationTests.java
+D:\JavaWorkSpace\DockerJenkinsApplication\src\test\java\com\spring\utils\TestUtil.java
+D:\JavaWorkSpace\DockerJenkinsApplication\src\test\java\com\spring\service\ApplicationInfoServiceTests.java
+D:\JavaWorkSpace\DockerJenkinsApplication\src\test\java\com\spring\controller\ApplicationInfoControllerTests.java

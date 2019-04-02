@@ -1,0 +1,4 @@
+com\spring\DockerJenkinsApplication.class
+com\spring\controller\ApplicationInfoController.class
+com\spring\beans\ApplicationInfo.class
+com\spring\service\ApplicationInfoService.class

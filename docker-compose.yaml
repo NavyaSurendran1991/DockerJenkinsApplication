@@ -1,0 +1,24 @@
+version: '3'
+services:
+  app:
+   image: dockerapp
+   build: .
+   restart: always
+   network_mode: host
+   ports:
+      - 8081:8081
+    expose:
+      - 8081
+  jenkins:
+    image: 'jenkins/jenkins:lts'
+    labels:
+      kompose.service.type: nodeport
+    ports:
+      - '80:8080'
+      - '443:8443'
+      - '50000:50000'
+    volumes:
+      - 'jenkins_data:/jenkins_config'
+volumes:
+  jenkins_data:
+    driver: local
