@@ -2,12 +2,14 @@ version: '3'
 services:
   app:
    image: dockerapp
-   build: .
+   build: 
+    context: .
+    dockerfile: Dockerfile.server
    restart: always
    network_mode: host
    ports:
       - 8081:8081
-    expose:
+   expose:
       - 8081
   jenkins:
     image: 'jenkins/jenkins:lts'
